@@ -1,0 +1,8 @@
+{
+  "label": "Your First Game",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Using the gamercade Editor."
+  }
+}
