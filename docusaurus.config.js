@@ -51,6 +51,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'My Site',
         logo: {
@@ -58,14 +63,14 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/downloads', label: 'Downloads', position: 'left'},
+          { to: '/downloads', label: 'Downloads', position: 'left' },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Learn',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
