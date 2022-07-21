@@ -75,8 +75,13 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            href: 'https://reddit.com/r/gamercade/',
+            label: '/r/gamercade',
+            position: 'right',
+          },
+          {
             href: 'https://discord.gg/Qafv2Fpt5j',
-            label: 'Join Discord',
+            label: 'Discord',
             position: 'right',
           }
         ],

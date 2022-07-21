@@ -13,5 +13,8 @@ TODO:
 Discord Link:
 https://discord.gg/Qafv2Fpt5j
 
+Reddit Link:
+https://reddit.com/r/gamercade/
+
 Icon Color:
 #3cad6e
