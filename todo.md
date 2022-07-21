@@ -1,14 +1,15 @@
 TODO:
-- Features
-    - Add "additional features"
-        - True Cross platform
-        - Keyboard, Mouse, and Controller input
+- Write a default palette page
+- Add "additional features" ? On hero page?
+    - True Cross platform
+    - Keyboard, Mouse, and Controller input
 - Look into a custom dark/light theme
 - Add search functionality
 - How to handle localization?
 - See various other TODOs in the pages
 - Build ko-fi page
 - Build patreon page
+
 
 Consider having 9 features?
 Simple/Powerufl, Multiplayer, Play!
