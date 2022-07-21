@@ -42,3 +42,7 @@ The following limitations are set for graphical data
 | Palette Count | 256 | Variable transparency per draw call |
 | Sprite Sheet Count | 256 | Adjustable heights and widths |
 | Sprites per Sprite Sheet | 256 | |
+
+## Audio Specifications
+
+TODO: Finalize audio spec

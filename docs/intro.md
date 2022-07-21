@@ -6,6 +6,6 @@ sidebar_position: 1
 
 TODO: Write some stuff about gamercade
 
-Join the community! See our [community](community.md) page.
+Join the community! See our [community](/community) page.
 
 [![Discord Logo](/img/Discord-Logo+Wordmark-Color.svg)](https://discord.gg/Qafv2Fpt5j)

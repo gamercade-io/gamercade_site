@@ -7,6 +7,8 @@ TODO:
 - Look into a custom dark/light theme
 - Tagline
 - Start writing some API docs
+- Add search functionality
+- How to handle localization?
 
 Discord Link:
 https://discord.gg/Qafv2Fpt5j
