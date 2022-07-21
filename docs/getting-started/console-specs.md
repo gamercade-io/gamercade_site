@@ -7,15 +7,15 @@ sidebar_position: 2
 ## Graphical Specifications
 
 ### Frame Rates:
-Gamercade supports the following frame rates. If the system has a refresh rate lower than the target frame rate, the game will still update at the correct rate. However, some rendering frames will be skipped.
+Gamercade supports the following frame rates. If the system has a refresh rate lower than the target frame rate, the game will still update at the correct rate. However, some rendering frames will be skipped. * Indicates not yet implemented
 
 | Name | Frames per Second |
 | --- | --- |
 | Super Slow | 24 |
 | Slow | 30 |
 | Normal | 60 |
-| Fast | 120 |
-| Super Fast | 240
+| Fast* | 120 |
+| Super Fast* | 240
 
 
 ### Resolutions:
