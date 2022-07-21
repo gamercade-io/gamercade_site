@@ -1,5 +1,7 @@
 # Downloads
 
+Gamercade is currently still in development. Check back soon!
+
 TODO: Write introduction
 
 ### Console Downloads

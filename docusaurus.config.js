@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Gamercade',
-  tagline: 'We don\'t have a tagline yet',
+  tagline: 'The ultimate WASM powered fantasy console and platform',
   url: 'https://gamercade.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -63,6 +63,7 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
+          { to: '/what-is-gamercade', label: 'What is Gamercade?', position: 'left'},
           { to: '/downloads', label: 'Downloads', position: 'left' },
           {
             type: 'doc',

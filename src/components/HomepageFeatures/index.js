@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_old_day_-6-x25.svg').default,
     description: (
       <>
-        Build any kind of game imaginable. A complete package including rendering, input,
-        audio, and more.
+        The complete package including 2d rendering, input, audio, and more. Create anything
+        from simple classic retro games, to the next big hit.
       </>
     ),
   },
@@ -18,8 +18,8 @@ const FeatureList = [
     Svg: require('@site/static/img/WebAssembly_Logo.svg').default,
     description: (
       <>
-        Use your favorite programming language. Anything which compiles to WebAssembly
-        will work!
+        Powered by WebAssembly. Use your favorite programming language. Full
+        support for any language which compiles to .wasm.
       </>
     ),
   },
@@ -28,8 +28,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_designer_girl_re_h54c.svg').default,
     description: (
       <>
-        Build your assets using whatever tools you desire. Use the included editor
-        to intuitively package and export your game.
+        Build your assets using whatever tools you already know. Use the included editor
+        to intuitively package, test, and export your game.
       </>
     ),
   },
@@ -38,8 +38,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_select_player_64ca.svg').default,
     description: (
       <>
-        If your game works offline, it will work online. Gamercade removes all of the complexities 
-        with online multiplayer.
+        Gamercade removes all of the complexities with online networking. Built-in p2p
+        rollback lets you get multiplayer for free.
       </>
     ),
   },
@@ -48,8 +48,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_engineering_team_re_fvat.svg').default,
     description: (
       <>
-        Projects are saved in a source-control friendly file format. Easily
-        collaborate with developers, artists, and designers, without the hassle.
+        Projects save in a source-control friendly format. Easily collaborate
+        with developers, artists, and designers, without any of the hassle.
       </>
     ),
   },

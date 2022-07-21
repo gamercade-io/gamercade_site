@@ -16,6 +16,12 @@ function HomepageHeader() {
         <img src="/img/logo.png"/>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+        <Link
+            className="button button--secondary button--lg"
+            to="/what-is-gamercade?"
+            style={{ marginRight: '8px' }}>
+            What is Gamercade?
+          </Link>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro"
@@ -23,7 +29,7 @@ function HomepageHeader() {
             Getting Started
           </Link>
           <Link
-            className="button button--outline button--secondary button--lg"
+            className="button button--secondary button--lg"
             to="/docs/api-reference">
             Api Reference
           </Link>
