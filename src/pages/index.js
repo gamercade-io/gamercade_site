@@ -8,17 +8,24 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
+        <img src="/img/logo.png"/>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/intro"
+            style={{ marginRight: '8px' }}>
             Getting Started
+          </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
+            to="/docs/api-reference">
+            Api Reference
           </Link>
         </div>
       </div>
@@ -27,7 +34,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       description="Description will go into a meta tag in <head />">

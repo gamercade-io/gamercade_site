@@ -57,10 +57,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Gamercade',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Gamercade Logo',
+          src: 'img/logo.png',
         },
         items: [
           { to: '/downloads', label: 'Downloads', position: 'left' },
@@ -70,12 +70,15 @@ const config = {
             position: 'left',
             label: 'Learn',
           },
+          {
+            to: '/community', label: 'Community', position: 'left',
+          },
           { to: '/blog', label: 'Blog', position: 'left' },
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://discord.gg/Qafv2Fpt5j',
+            label: 'Join Discord',
+            position: 'right',
+          }
         ],
       },
       // footer: {
@@ -88,22 +91,18 @@ const config = {
       //           label: 'Tutorial',
       //           to: '/docs/intro',
       //         },
+      //         {
+      //           label: 'Api Reference',
+      //           to: '/docs/api-reference'
+      //         }
       //       ],
       //     },
       //     {
       //       title: 'Community',
       //       items: [
       //         {
-      //           label: 'Stack Overflow',
-      //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-      //         },
-      //         {
       //           label: 'Discord',
-      //           href: 'https://discordapp.com/invite/docusaurus',
-      //         },
-      //         {
-      //           label: 'Twitter',
-      //           href: 'https://twitter.com/docusaurus',
+      //           href: 'https://discord.gg/Qafv2Fpt5j',
       //         },
       //       ],
       //     },
@@ -114,14 +113,10 @@ const config = {
       //           label: 'Blog',
       //           to: '/blog',
       //         },
-      //         {
-      //           label: 'GitHub',
-      //           href: 'https://github.com/facebook/docusaurus',
-      //         },
       //       ],
       //     },
       //   ],
-      //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      //   //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       // },
       prism: {
         theme: lightCodeTheme,

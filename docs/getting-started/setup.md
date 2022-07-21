@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 # Setup
-Go to downloads page
+Visit the [downloads](/downloads) page
 
-TODO
+TODO: Continue writing setup

@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Simple & Powerful',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_old_day_-6-x25.svg').default,
     description: (
       <>
         Build any kind of game imaginable. A complete package including rendering, input,
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Language Agnostic',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/WebAssembly_Logo.svg').default,
     description: (
       <>
         Use your favorite programming language. Anything which compiles to WebAssembly
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Tool Agnostic',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_designer_girl_re_h54c.svg').default,
     description: (
       <>
         Build your assets using whatever tools you desire. Use the included editor
@@ -35,7 +35,7 @@ const FeatureList = [
   },
   {
     title: 'Seamless Online & Local Multiplayer',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_select_player_64ca.svg').default,
     description: (
       <>
         If your game works offline, it will work online. Gamercade removes all of the complexities 
@@ -45,7 +45,7 @@ const FeatureList = [
   },
   {
     title: 'Build Together',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_engineering_team_re_fvat.svg').default,
     description: (
       <>
         Projects are saved in a source-control friendly file format. Easily
@@ -55,7 +55,7 @@ const FeatureList = [
   },
   {
     title: 'Play!',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_ninja_e-52-b.svg').default,
     description: (
       <>
         Browse, download, and play other Gamercade games. Built-in game browser
