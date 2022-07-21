@@ -7,6 +7,8 @@ TODO:
 - Add search functionality
 - How to handle localization?
 - See various other TODOs in the pages
+- Build ko-fi page
+- Build patreon page
 
 Consider having 9 features?
 Simple/Powerufl, Multiplayer, Play!
