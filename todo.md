@@ -1,6 +1,7 @@
 TODO:
 - Write a default palette page
 - Write a "Security" Page
+- Write FAQ Page
 - Add "additional features" ? On hero page?
     - True Cross platform
     - Keyboard, Mouse, and Controller input

@@ -7,7 +7,7 @@ sidebar_position: 2
 ## Graphical Specifications
 
 ### Frame Rates:
-Gamercade supports the following frame rates. If the system has a refresh rate lower than the target frame rate, the game will still update at the correct rate. However, some rendering frames will be skipped. * Indicates not yet implemented
+Gamercade supports the following frame rates. If the system has a refresh rate lower than the target frame rate, the game will still update at the correct rate. However, some rendering frames will be skipped. *Indicates not yet implemented
 
 | Name | Frames per Second |
 | --- | --- |
@@ -45,4 +45,20 @@ The following limitations are set for graphical data
 
 ## Audio Specifications
 
-TODO: Finalize audio spec
+**General Audio Spec**
+- 8 stereo channels for music
+- 8 stereo channels for SFX
+- Mix and match as needed
+
+[**FM Synthesizer**](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis)
+- Full Featured 4-Operator FM Synth
+- 8 Algorithms
+- Adjustable Feedback
+- 8 Selectable Waveforms
+- +/- 100 levels of Detune
+- Frequency Multiplier
+- Randomizer and Presets
+
+**8-bit Sample Player**
+- 100s of Included Samples
+- Actively in development...

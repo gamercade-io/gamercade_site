@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Running Games
 
-TODO: Write a better version of this.
+TODO: I know this is rough, I will write a better one soon.
 
 ## Single Player
 
@@ -16,8 +16,8 @@ Playing a single player game is easy!
 
 ## Local Multiplayer
 
-TODO: Work in progress
+TODO: This feature is still in development.
 
 ## Networked Multiplayer
 
-TODO: Write this
+TODO: Write this.
