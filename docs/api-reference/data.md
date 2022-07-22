@@ -4,34 +4,37 @@ sidebar_position: 1
 
 # Data
 
-TODO: Write the intro
+The Data Api contains a collection of functions for fetching data related to the game rom itself.
 
-## Function List
-
-```rust title="The height of the game, in pixels."
+```rust title="Data Api Function List"
+// Returns the height of the game, in pixels.
 fn height(&self) -> i32;
-```
-```rust title="The width of the game, in pixels."
+
+// Returns the width of the game, in pixels.
 fn width(&self) -> i32;
-```
-```rust title="The fps of the game, in frames per second."
+
+// Returns the fps of the game, in frames per second.
 fn fps(&self) -> i32;
-```
-```rust title="The frame time of the game, calculated by 1 divided by fps"
+
+// Returns the frame time of the game, calculated by 1 divided by fps. Also known
+// as delta time.
 fn frame_time(&self) -> f32;
-```
-```rust title="The number of valid sprite sheets."
+
+// Returns the number of valid sprite sheets.
 fn sprite_sheet_count(&self) -> i32;
-```
-```rust title="The number of valid palettes."
+
+// Returns the number of valid palettes.
 fn palette_count(&self) -> i32;
-```
-```rust title="The height of the requested sprite sheet."
+
+// Returns the height of the requested sprite sheet. If an invalid sprite sheet index is passed in,
+// the function will return -1.
 fn sprite_height(&self, sheet_index: i32) -> i32;
-```
-```rust title="The width of the requested sprite sheet."
+
+// Returns the width of the requested sprite sheet. If an invalid sprite sheet index is passed in,
+// the function will return -1.
 fn sprite_width(&self, sheet_index: i32) -> i32;
-```
-```rust title="The number of sprites within the sprite sheet"
+
+// Returns the number of sprites within the sprite sheet. If an invalid sprite sheet index is passed in,
+// the function will return -1.
 fn sprite_count(&self, sheet_index: i32) -> i32;
 ```

@@ -76,6 +76,11 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            to: '/support-gamercade',
+            label: 'Support Gamercade',
+            position: 'right',
+          },
+          {
             href: 'https://reddit.com/r/gamercade/',
             label: '/r/gamercade',
             position: 'right',

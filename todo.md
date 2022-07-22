@@ -1,5 +1,6 @@
 TODO:
 - Write a default palette page
+- Write a "Security" Page
 - Add "additional features" ? On hero page?
     - True Cross platform
     - Keyboard, Mouse, and Controller input
@@ -7,7 +8,6 @@ TODO:
 - Add search functionality
 - How to handle localization?
 - See various other TODOs in the pages
-- Build ko-fi page
 - Build patreon page
 
 
@@ -27,6 +27,9 @@ https://discord.gg/Qafv2Fpt5j
 
 Reddit Link:
 https://reddit.com/r/gamercade/
+
+Kofi Link:
+https://ko-fi.com/gamercade
 
 Icon Color:
 #3cad6e
