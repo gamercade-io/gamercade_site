@@ -6,8 +6,6 @@ sidebar_position: 3
 
 Draw Api works very closely with the [Graphics Parameters Api](graphics-parameters.md). Any unused parameters will be safely ignored. If any of these functions provide invalid values, they will do nothing.
 
-TODO: Write intro
-
 ```rust title="Primitive Shapes Drawing"
 // Primitive drawing depends on the following Graphics Parameter fields:
 // - Palette Index

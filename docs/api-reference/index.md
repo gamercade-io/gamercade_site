@@ -5,10 +5,20 @@ sidebar_position: 5
 
 # Api Reference
 
-Using the gamercade wasm Api.
+For your game to successfully to run, it is important that it exposes the following three functions:
 
-TODO: Explain about wasm types.
+```rust title="Required functions"
+// The initialize function is called once at the very beginning of your game.
+fn init();
 
+// The update function is called every frame of your game, before draw.
+// It is called at the frame rate set by the ROM file.
+fn update();
+
+// The draw function is called every frame of your game, after update.
+// It is called at the frame rate set by the ROM file.
+fn draw();
+```
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
@@ -17,10 +27,10 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 <DocCardList items={useCurrentSidebarCategory().items}/>
 ```
 
+Below is a list containing the entire list of valid function calls.
+
 ### Full Raw API Reference
 ```rust
-#![allow(unused)]
-
 // Data
 extern "C" {
     pub fn height() -> i32;

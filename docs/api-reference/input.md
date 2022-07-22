@@ -18,7 +18,7 @@ Each button function has three variants, `pressed`, `released`, and `held`.
 
 `held` returns 1 if the button is held down, or 0 if the button is not pressed.
 
-```rust
+```rust title="Binary Input Api"
 // Face Buttons
 fn button_a_pressed(player_id: i32) -> i32;
 fn button_a_released(player_id: i32) -> i32;
@@ -94,7 +94,7 @@ fn button_right_stick_held(player_id: i32) -> i32;
 
 These are not yet implemented, but are coming soon.
 
-```rust
+```rust title="Analog Input Api"
 // Left Stick
 fn analog_left_x(player_id: i32) -> f32;
 fn analog_left_y(player_id: i32) -> f32;
@@ -110,7 +110,7 @@ fn trigger_right(player_id: i32) -> f32;
 
 ### (Advanced) Raw Input
 
-TODO: Write how to use this
+TODO: Explain Raw Input Spec
 
 ```rust
 // Returns the raw input state as seen directly by the console.
