@@ -64,6 +64,7 @@ const config = {
         },
         items: [
           { to: '/what-is-gamercade', label: 'What is Gamercade?', position: 'left'},
+          { to: '/faq', label: 'FAQ', position: 'left'},
           { to: '/downloads', label: 'Downloads', position: 'left' },
           {
             type: 'doc',

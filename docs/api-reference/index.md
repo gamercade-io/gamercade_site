@@ -7,7 +7,7 @@ sidebar_position: 5
 
 For your game to successfully to run, it is important that it exposes the following three functions:
 
-```rust title="Required functions"
+```rust title="Required Functions"
 // The initialize function is called once at the very beginning of your game.
 fn init();
 
