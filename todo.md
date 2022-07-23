@@ -1,5 +1,4 @@
 TODO:
-- Write a default palette page
 - Add "additional features" ? On hero page?
     - True Cross platform
     - Keyboard, Mouse, and Controller input
