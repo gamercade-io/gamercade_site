@@ -1,4 +1,5 @@
 TODO:
+- Add images throughout?
 - Add "additional features" ? On hero page?
     - True Cross platform
     - Keyboard, Mouse, and Controller input
@@ -6,7 +7,7 @@ TODO:
 - Add search functionality
 - How to handle localization?
 - See various other TODOs in the pages
-- Build patreon page
+- Build patreon page?
 
 
 Consider having 9 features?

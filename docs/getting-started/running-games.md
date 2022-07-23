@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Running Games
 
-TODO: I know this is rough, I will write a better one soon.
+TODO: This document is still very rough, a better one is coming soon.
 
 ## Single Player
 
