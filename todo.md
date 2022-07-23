@@ -8,6 +8,10 @@ TODO:
 - How to handle localization?
 - See various other TODOs in the pages
 - Build patreon page?
+- Use github actions to build?:
+    - linux
+    - windows
+    - mac
 
 
 Consider having 9 features?

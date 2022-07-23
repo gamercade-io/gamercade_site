@@ -9,10 +9,10 @@ If you're only interested in playing games, the Gamercade Console is all you nee
 | Platform | Download |
 | --- | --- |
 | Windows 32-bit | *Not Yet Available* |
-| Windows 64-bit | [Download](/releases/gamercade_console.zip) |
+| Windows 64-bit | [Download Latest](/releases/win64/gamercade_console.zip) |
 | Linux arm64 | *Not Yet Available* |
 | Linux 32-bit | *Not Yet Available* |
-| Linux 64-bit | *Not Yet Available* |
+| Linux 64-bit | [Download Latest](/releases/linux-x86-64/gamercade_console.zip) |
 | Mac OSX | *Not Yet Available* |
 
 ### Editor Downloads
@@ -22,10 +22,10 @@ If you want to develop games for the Gamercade Console, you must use the provide
 | Platform | Download |
 | --- | --- |
 | Windows 32-bit | *Not Yet Available* |
-| Windows 64-bit | [Download](/releases/gamercade_editor.zip) |
+| Windows 64-bit | [Download Latest](/releases/win64/gamercade_editor.zip) |
 | Linux arm64 | *Not Yet Available* |
 | Linux 32-bit | *Not Yet Available* |
-| Linux 64-bit | *Not Yet Available* |
+| Linux 64-bit | [Download Latest](/releases/linux-x86-64/gamercade_editor.zip)|
 | Mac OSX | *Not Yet Available* |
 
 ### Games
