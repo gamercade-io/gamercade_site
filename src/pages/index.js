@@ -15,10 +15,10 @@ function HomepageHeader() {
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <img src="/img/logo-large.png"
           width="60%"
-          height="60%"/>
+          height="60%" />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-        <Link
+          <Link
             className="button button--secondary button--lg"
             to="/what-is-gamercade?"
             style={{ marginRight: '8px' }}>
@@ -48,6 +48,8 @@ export default function Home() {
       description="Gamercade.io">
       <HomepageHeader />
       <main>
+        <img src="/img/parallax.png"
+          style={{ display: 'block', marginRight: 'auto', marginLeft: 'auto', marginTop: '30px' }} />
         <HomepageFeatures />
       </main>
     </Layout>
