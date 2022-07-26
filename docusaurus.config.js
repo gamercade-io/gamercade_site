@@ -60,7 +60,7 @@ const config = {
         title: 'Gamercade',
         logo: {
           alt: 'Gamercade Logo',
-          src: 'img/logo.png',
+          src: 'img/logo-trans.png',
         },
         items: [
           { to: '/what-is-gamercade', label: 'What is Gamercade?', position: 'left'},
