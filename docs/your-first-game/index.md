@@ -1,6 +1,6 @@
 ---
 slug: /your-first-game
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Your First Game
