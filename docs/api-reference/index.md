@@ -75,7 +75,7 @@ extern "C" {
 
 // Text
 extern "C" {
-    fn log(text_ptr: i32, len: i32);
+    fn trace(text_ptr: i32, len: i32);
     fn draw_text(text_ptr: i32, len: i32, x: i32, y: i32);
 }
 
