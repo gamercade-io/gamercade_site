@@ -20,9 +20,6 @@ fn fps() -> i32;
 // as delta time.
 fn frame_time() -> f32;
 
-// Returns the number of players (or controllers).
-fn num_players() -> i32;
-
 // Returns the number of valid sprite sheets.
 fn sprite_sheet_count() -> i32;
 

@@ -37,7 +37,6 @@ extern "C" {
     pub fn width() -> i32;
     pub fn fps() -> i32;
     pub fn frame_time() -> f32;
-    pub fn num_players() -> i32;
     pub fn sprite_sheet_count() -> i32;
     pub fn palette_count() -> i32;
     pub fn sprite_height(sprite_sheet: i32) -> i32;
@@ -72,6 +71,20 @@ extern "C" {
     pub fn rect_filled(graphics_parameters: i32, x: i32, y: i32, width: i32, height: i32);
     pub fn line(graphics_parameters: i32, x0: i32, y0: i32, x1: i32, y1: i32);
     pub fn sprite(graphics_parameters: i32, transparency_mask: i64, x: i32, y: i32);
+}
+
+// Text
+extern "C" {
+    fn log(text_ptr: i32, len: i32);
+    fn draw_text(text_ptr: i32, len: i32, x: i32, y: i32);
+}
+
+// Random
+extern "C" {
+    pub fn set_seed(seed: i32);
+    pub fn random_int_range(min: i32, max: i32) -> i32;
+    pub fn random_float() -> f32;
+    pub fn random_float_range(min: f32, max: f32) -> f32;
 }
 
 // Input
@@ -131,5 +144,15 @@ extern "C" {
     pub fn trigger_left(player_id: i32) -> f32;
     pub fn trigger_right(player_id: i32) -> f32;
     pub fn raw_input_state(played_id: i32) -> i64;
+}
+
+// Multiplayer
+extern "C" {
+    pub fn num_players() -> i32;
+
+    // WARNING: Using this is possible to desync clients!
+    // Make sure you know what you're doing before using these.
+    pub fn is_local_player(player_id: i32) -> i32;
+    pub fn is_remote_player(player_id: i32) -> i32;
 }
 ```
