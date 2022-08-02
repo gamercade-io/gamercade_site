@@ -44,3 +44,16 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 npx docusaurus start
 
 Site is active at http://localhost:3000
+
+---
+
+Useful Links:
+
+Discord Link:
+https://discord.gg/Qafv2Fpt5j
+
+Reddit Link:
+https://reddit.com/r/gamercade/
+
+Kofi Link:
+https://ko-fi.com/gamercade
