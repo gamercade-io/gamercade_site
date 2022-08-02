@@ -13,6 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  organizationName: 'gamercade-io',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -76,6 +77,11 @@ const config = {
             to: '/community', label: 'Community', position: 'left',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            href: 'https://github.com/gamercade-io/',
+            label: 'GitHub',
+            position: 'right',
+          },
           {
             to: '/support-gamercade',
             label: 'Support Gamercade',
