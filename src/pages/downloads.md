@@ -1,32 +1,18 @@
 # Downloads
 
-Gamercade is currently still in development. Check back soon!
+Gamercade is currently still in development. With changes happening at a rapid pace. Because of this, we recommend building from source to stay up with the latest changes. However, premade builds will be made available again shortly.
 
-### Console Downloads
+### Console
 
-If you're only interested in playing games, the Gamercade Console is all you need. Includes one game featuring both single and online multiplayer.
+If you want to check out the console and play some cool games:
 
-| Platform | Download |
-| --- | --- |
-| Windows 32-bit | *Not Yet Available* |
-| Windows 64-bit | [Download Latest](/releases/win64/gamercade_console-win64.zip) |
-| Linux arm64 | *Not Yet Available* |
-| Linux 32-bit | *Not Yet Available* |
-| Linux 64-bit | [Download Latest](/releases/linux-x86-64/gamercade_console-linux-x86-64.zip) |
-| Mac OSX | *Not Yet Available* |
+[Gamercade Console](https://github.com/gamercade-io/gamercade_console) can be found at the provided link.
 
-### Editor Downloads
+### Editor
 
-If you want to develop games for the Gamercade Console, you must use the provided editor.
+If you want to develop games for the Gamercade Console, you must use the editor.
 
-| Platform | Download |
-| --- | --- |
-| Windows 32-bit | *Not Yet Available* |
-| Windows 64-bit | [Download Latest](/releases/win64/gamercade_editor-win64.zip) |
-| Linux arm64 | *Not Yet Available* |
-| Linux 32-bit | *Not Yet Available* |
-| Linux 64-bit | [Download Latest](/releases/linux-x86-64/gamercade_editor-linux-x86-64.zip)|
-| Mac OSX | *Not Yet Available* |
+[Gamercade Editor](https://github.com/gamercade-io/gamercade_editor)
 
 ### Games
 
