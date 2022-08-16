@@ -8,7 +8,7 @@ The Multiplayer Api provides useful functions for getting data about the active 
 
 It's generally safe to call these functions when drawing.
 
-For Example
+For Example:
 - Scrolling the camera to only show the local player.
 - A split screen game.
 - A card game, you can only see your cards. Oponents' cards are face down.
