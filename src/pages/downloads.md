@@ -18,9 +18,9 @@ If you want to check out the console and play some cool games:
 
 If you want to develop games for the Gamercade Console, you must use the editor:
 
-[Edge Editor](https://github.com/gamercade-io/gamercade_editor/releases/tag/edge)
+[Edge Editor](https://github.com/gamercade-io/gamercade_console/releases/tag/edge)
 
-[Gamercade Editor from Source](https://github.com/gamercade-io/gamercade_editor)
+[Gamercade Editor from Source](https://github.com/gamercade-io/gamercade_console)
 
 ### Games
 
