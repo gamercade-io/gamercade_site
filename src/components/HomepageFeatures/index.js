@@ -38,8 +38,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_select_player_64ca.svg').default,
     description: (
       <>
-        Gamercade removes all of the complexities with online networking. Built-in p2p
-        rollback lets you get multiplayer for free.
+        Gamercade mitigates many of the complexities with online networking. Built-in p2p
+        rollback lets you get multiplayer "for free."
       </>
     ),
   },
