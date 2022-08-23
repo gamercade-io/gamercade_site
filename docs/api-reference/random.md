@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Random
 
-The Random Api can be used to generate random numbers. Note that the psuedo random numbers generated are identical across all clients. This is a somewhat stateful Api, which has potential repurcussions when used together with the [Multiplayer Api](multiplayer.md). Consider checking that document if you intend on creating diverging game states with random number generation.
+The Random Api can be used to generate random numbers. Note that the pseudo random numbers generated are identical across all clients. This is a somewhat stateful Api, which has potential repercussions when used together with the [Multiplayer Api](multiplayer.md). Consider checking that document if you intend on creating diverging game states with random number generation.
 
 ```rust title="Random Api Function List"
 // Sets the seed to the given input
