@@ -66,11 +66,10 @@ Gamercade ships with 10 default palettes. Users are able to freely add, delete, 
 - 8 stereo channels for Sfx
 - Mix and match as needed
 - 96 note keyboard from C1 -> B9
-- Built in Effects
+- Built in Effects, like ADSR and more
 
 [**FM Synthesizer**](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis)
 - Full Featured 4-Operator FM Synth
-- 44.1Khz Output
 - 12 Algorithms
 - Adjustable Feedback
 - 8 Selectable Waveforms
@@ -78,9 +77,14 @@ Gamercade ships with 10 default palettes. Users are able to freely add, delete, 
 - Frequency Multiplier
 - Randomizer and Presets
 
-**16-bit Wavetable Sample Player**
-- Full Featured Wavetable Synth
+**16-bit Wavetables**
+- Full Featured Wavetable Synth.
 - Create wavetables via file import, automated generation, or draw your own
-- Variable loop points
+- Adjustable length to meet size and sound requirements
+
+**16-bit Sampler**
+- Full Featured Sample playback
+- Import your own sample files
+- Adjust per note during playback
+- Variable playback with adjustable loop points
 - 100s of Included Samples (*in development)
-- Actively in development...
