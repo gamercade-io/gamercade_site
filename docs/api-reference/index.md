@@ -1,6 +1,6 @@
 ---
 slug: /api-reference
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 # Api Reference
@@ -31,6 +31,18 @@ Below is a list containing the entire list of valid function calls.
 
 ### Full Raw API Reference
 ```rust
+// Audio
+extern "C" {
+    pub fn play_bgm(bgm_index: i32);
+    pub fn play_sfx(sfx_index: i32, channel: i32);
+    pub fn bgm_is_active() -> i32;
+    pub fn channel_is_active(channel: i32) -> i32;
+    pub fn stop_bgm();
+    pub fn stop_channel(channel: i32);
+    pub fn play_note(note_id: i32, instrument_index: i32, channel: i32);
+    pub fn play_frequency(frequency: f32, instrument_index: i32, channel: i32);
+}
+
 // Data
 extern "C" {
     pub fn height() -> i32;
