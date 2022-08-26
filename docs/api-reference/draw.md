@@ -21,6 +21,10 @@ fn set_pixel(graphics_parameters: i32, x: i32, y: i32);
 // desired color.
 fn circle(graphics_parameters: i32, x: i32, y: i32, radius: i32);
 
+// Draws a filled circle with the given radius at to the target location, in the
+// desired color.
+fn circle_filled(graphics_parameters: i32, x: i32, y: i32, radius: i32);
+
 // Draws a rect with the top left at X, Y, and bottom right at width, height, in
 // the desired color.
 fn rect(graphics_parameters: i32, x: i32, y: i32, width: i32, height: i32);
