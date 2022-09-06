@@ -1,11 +1,11 @@
 ---
-slug: /sound-editor
+slug: /audio-editor
 sidebar_position: 3
 ---
 
-# Sound Editor
+# Audio Editor
 
-Currently, the sound editor is still in development. Check back soon!
+Currently, the audio editor documentation is still in development. Check back soon!
 <!-- 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
