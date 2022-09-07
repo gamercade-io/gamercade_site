@@ -2,11 +2,11 @@
 
 ## What is Gamercade?
 
-We recommend reading the ["What is Gamercade?"](what-is-gamercade) page.
+We recommend reading the ["What is Gamercade?"](/what-is-gamercade) page.
 
 ## Where can I download it?
 
-You can find download links on our [downloads](downloads) page.
+You can find download links on our [downloads](/downloads) page.
 
 ## When will Gamercade be released?
 
@@ -34,7 +34,7 @@ See the [Console Specs](/docs/console-specs) page.
 
 ## How can I support the project?
 
-You can learn how to support the project at our [Support Gamercade](support-gamercade) page.
+You can learn how to support the project at our [Support Gamercade](/support-gamercade) page.
 
 ## How does the networking work?
 
