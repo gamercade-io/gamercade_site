@@ -13,12 +13,6 @@ fn play_bgm(bgm_index: i32);
 // Plays the specified SFX by index, on the specified channel.
 fn play_sfx(sfx_index: i32, channel: i32);
 
-// Returns 1 if the BGM is currently playing, otherwise 0.
-fn bgm_is_active() -> i32;
-
-// Returns 1 if the SFX channel is currently playing, otherwise 0. A -1 response means the channel is invalid.
-fn channel_is_active(channel: i32) -> i32;
-
 // Stops the BGM from playing.
 fn stop_bgm();
 
