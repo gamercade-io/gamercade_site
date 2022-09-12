@@ -4,9 +4,11 @@ sidebar_position: 7
 
 # Input
 
-Each input function requires a player_id. Note that this is the player_id as determined by the console, *not* the local or networked player. 
+Each input function requires a player_id. Note that this is the player_id as determined by the console, *not* the local or networked player.
 
 Due to WASM limitations, the return type of each function is either treated as a bool value (0 for false, or 1 for true) inside of a i32, or a f32 value for analog style controls. See each section for more details.
+
+A `-1` or `NaN` value indicates that the passed in player id is invalid.
 
 ### Button Inputs
 
@@ -17,6 +19,9 @@ Each button function has three variants, `pressed`, `released`, and `held`.
 `released` returns 1 if the button was just released this frame, otherwize 0.
 
 `held` returns 1 if the button is held down, or 0 if the button is not pressed.
+
+If passed in player id is invalid, these functions will return a value of `-1`.
+
 
 ```rust title="Binary Input Api"
 // Face Buttons
@@ -93,6 +98,8 @@ fn button_right_stick_held(player_id: i32) -> i32;
 ### Analog Controls
 
 These are not yet implemented, but are coming soon.
+
+If passed in player id is invalid, these functions will return a NaN value.
 
 ```rust title="Analog Input Api"
 // Left Stick
