@@ -78,7 +78,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/gamercade-io/',
+            href: 'https://github.com/gamercade-io/gamercade_console',
             label: 'GitHub',
             position: 'right',
           },
