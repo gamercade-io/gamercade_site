@@ -22,6 +22,17 @@ The palette list also houses some buttons for interacting with the list as a who
 - *Up* - Move the selected palette up one spot on the list.
 - *Down* - Move the selected palette down one spot on the list.
 
+### Importing Palettes
+
+When importing palettes, keep these in mind:
+
+- The file can be any of the supported image types.
+- The editor will automatically try to extract colors from the image.
+- Duplicate colors will be combined in the final palette.
+- If a palette has less than 64 colors, the unused ones will be filled with transparency.
+- If a palette has more than 64 colors, it will not be usable, and will fail to import.
+- If a palette fails to import for any reason, the console window should explain why it failed.
+
 ## Palette Viewer
 
 The Palette Viewer shows a larger image of the entire color palette. It is also used in conjunction with the Color Editor below it to make adjustments to the individual colors within the palette.
