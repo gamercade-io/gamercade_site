@@ -15,12 +15,12 @@ A palette can be selected by clicking its name on the list.
 
 The palette list also houses some buttons for interacting with the list as a whole.
 
-- *New* - Insert a new default palette.
-- *Import* - Import a palette from a file.
-- *Delete* - Delete the selected palette.
-- *Duplicate* - Duplicate the selected palette.
-- *Up* - Move the selected palette up one spot on the list.
-- *Down* - Move the selected palette down one spot on the list.
+- **New** - Insert a new default palette.
+- **Import** - Import a palette from a file.
+- **Delete** - Delete the selected palette.
+- **Duplicate** - Duplicate the selected palette.
+- **Up** - Move the selected palette up one spot on the list.
+- **Down** - Move the selected palette down one spot on the list.
 
 ### Importing Palettes
 
