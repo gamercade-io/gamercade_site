@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Palette Editor
 
-![palette editor](/img/editor/palette-editor.png)
+![Palette Editor](/img/editor/palette-editor.png)
 
 The Palette Editor is primarily used for defining and editing palettes to be used when drawing sprites and graphics. Each palette is composed of 64 colors, defined by standard 32-bit RGBA Values (8 bits per channel). Currently, the alpha channel can only be set to 0 (completely off), or 255 (completely on).
 
