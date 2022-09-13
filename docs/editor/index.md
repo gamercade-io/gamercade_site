@@ -1,13 +1,13 @@
 ---
 slug: /editor
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 # Gamercade Editor
 
-Using the gamercade Editor.
+![Gamercade Editor](/img/editor/rom-editor.png)
 
-TODO: Write this
+The Editor is the primary tool for bundling assets with game code, and exporting them into the `.gcrom` file format. All Gamercade games are run and shared in this format.
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
