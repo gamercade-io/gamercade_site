@@ -37,4 +37,22 @@ fn sprite_width(sheet_index: i32) -> i32;
 // Returns the number of sprites within the sprite sheet. If an invalid sprite sheet index is passed in,
 // the function will return -1.
 fn sprite_count(sheet_index: i32) -> i32;
+
+// Returns the length of the requested song in seconds.
+// If the song is invalid, will return NaN.
+fn bgm_length_secs(bgm_index: i32) -> f32;
+
+// Returns the length of the requested song in frames.
+// The result of this function is always rounded up, ensuring that this sequence will be completed if
+// the complete number of frames have passed.
+fn bgm_length_frames(bgm_index: i32) -> i32;
+
+// Returns the length of the requested song in seconds.
+// If the sfx is invalid, will return NaN.
+fn sfx_length_secs(sfx_index: i32) -> f32;
+
+// Returns the length of the requested song in frames.
+// The result of this function is always rounded up, ensuring that this sequence will be completed if
+// the complete number of frames have passed.
+fn sfx_length_frames(sfx_index: i32) -> i32;
 ```
