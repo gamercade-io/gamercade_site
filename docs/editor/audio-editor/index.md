@@ -1,6 +1,6 @@
 ---
 slug: /audio-editor
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Audio Editor
