@@ -19,7 +19,7 @@ Playing a single player game is easy!
 
 ## Local Multiplayer
 
-TODO: This feature is still in development.
+This feature is still in development. Check back soon!
 
 ## Networked Multiplayer
 
