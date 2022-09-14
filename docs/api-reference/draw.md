@@ -58,5 +58,4 @@ fn sprite(graphics_parameters: i32, transparency_mask: i64, x: i32, y: i32);
 // You can combine multiple indicies to represent complex transparencies, such as:
 // 1 | (1 << 4) | (1 << 8)
 // Which results in 0b10001001, or indicies 0, 4, and 8 all being transparent.
-
 ```
