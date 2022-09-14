@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # FM Synth
 
+![FM Synth](/img/editor/fm-synth.png)
+
 TODO
 
 ## Algorithm

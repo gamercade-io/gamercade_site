@@ -5,6 +5,8 @@ sidebar_position: 5
 
 # Audio Editor
 
+![Audio Editor](/img/editor/audio-editor.png)
+
 TODO
 
 ## Oscilloscope

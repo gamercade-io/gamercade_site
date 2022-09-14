@@ -5,6 +5,8 @@ sidebar_position: 1
 
 # Instrument Editor
 
+![Instrument Editor](/img/editor/instrument-editor.png)
+
 TODO:
 
 ## Instrument List
