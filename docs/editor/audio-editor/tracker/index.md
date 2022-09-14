@@ -11,6 +11,10 @@ The tracker editor modes are responsible for defining the playable sequences in 
 
 Each of the tracker modes features a similar interface: multiple rows with spaces for data entry. The track will always flow from top to bottom, playing any of the entries (if they exist) in sequence. They will continue to play until they are finished by reaching the end of the sequence.
 
+Everything in the tracker view is based of [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal), also known as base-16. All numbers will range from zero `00` up to 255 `FF`.
+
+Any tracker which references another type, like an instrument, chain, or phrase, uses the number as an index. So instrument `00` would be the first instrument in the list, and phrase `0A` would be the tenth phrase in the list.
+
 ## Gamercade Tracker Key Terms
 
 Each kind of sequence can be split into one of these four categories. They can then be combined to create sound effects and fully fledged songs. The four categories are:
