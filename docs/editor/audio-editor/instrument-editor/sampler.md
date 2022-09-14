@@ -12,6 +12,10 @@ TODO
 
 TODO
 
+## Setting Frequency
+
+TODO
+
 ## Loop Modes
 
 TODO
