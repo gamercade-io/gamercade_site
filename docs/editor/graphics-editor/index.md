@@ -11,9 +11,9 @@ The Graphics Editor is used for editing all graphical aspects of Gamercade ROMs.
 
 The graphics editor has three modes:
 
-- *Palettes* - For editing palettes and the colors in them.
-- *Sprite Sheets* - For editing sprite sheets, a series of of grouped sprites.
-- *Sprite Editor* - For editing individual sprite images.
+- **Palettes** - For editing palettes and the colors in them.
+- **Sprite Sheets** - For editing sprite sheets, a series of of grouped sprites.
+- **Sprite Editor** - For editing individual sprite images.
 
 You can navigate between different graphics editor modes by clicking the desired mode on the top panel of the main editor window. Note that some selections (such as preview palette, or preview sprite image) may be shared across editor views.
 
