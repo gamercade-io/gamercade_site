@@ -5,7 +5,16 @@ sidebar_position: 5
 
 # Audio Editor
 
-Currently, the audio editor documentation is still in development. Check back soon!
+TODO
+
+## Oscilloscope
+
+TODO
+
+## Tracker Modes
+
+TODO
+
 <!-- 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';

@@ -4,4 +4,12 @@ sidebar_position: 3
 
 # Sampler
 
-TODO:
+TODO
+
+## Loading Samples
+
+TODO
+
+## Loop Modes
+
+TODO
