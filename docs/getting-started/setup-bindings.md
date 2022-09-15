@@ -17,4 +17,7 @@ Check out some of these helper libraries to get you started even faster:
 
 #### Other Languages
 
-- **Nelua** - [neula-gamercade](https://codeberg.org/Andre-LA/nelua-gamercade) by [Andre-LA](https://codeberg.org/Andre-LA). Includes [bindings](https://codeberg.org/Andre-LA/nelua-gamercade/src/branch/main/gamercade.nelua) for Gamercade in the [Nelua](https://nelua.io/) language.
+| Language | Author | Link | Notes |
+| --- | --- | --- | --- |
+| [**Nelua**](https://nelua.io/) | [Andre-LA](https://codeberg.org/Andre-LA) | [neula-gamercade](https://codeberg.org/Andre-LA/nelua-gamercade) | Includes [bindings](https://codeberg.org/Andre-LA/nelua-gamercade/src/branch/main/gamercade.nelua). |
+| [**Zig**](https://ziglang.org/) | Gamercade | [zig-template](https://github.com/gamercade-io/zig-template) | Includes [bindings](https://github.com/gamercade-io/zig-template/tree/main/gamercade). |
