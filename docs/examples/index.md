@@ -18,3 +18,4 @@ Check these projects out for inspiration or to help learn more about the project
 ### Other Languages
 
 - **Nelua** - [neula-gamercade](https://codeberg.org/Andre-LA/nelua-gamercade) from [Andre-LA](https://codeberg.org/Andre-LA). Contains both a port of the pong example, as well as [notes](https://codeberg.org/Andre-LA/nelua-gamercade/src/branch/main/README.md) and [bindings](https://codeberg.org/Andre-LA/nelua-gamercade/src/branch/main/gamercade.nelua) for Gamercade in the [Nelua](https://nelua.io/) language.
+- **Zig** - [zig-template](https://github.com/gamercade-io/zig-template) from Gamercade. Contains a port of the [rust_template](https://github.com/gamercade-io/rust_template) in the [Zig](https://ziglang.org/) programming language. Additionally includes [bindings](https://github.com/gamercade-io/zig-template/tree/main/gamercade).
