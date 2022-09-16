@@ -90,7 +90,8 @@ extern "C" {
 
 // Text
 extern "C" {
-    fn console_log(text_ptr: i32, len: i32);
+    pub fn console_log(text_ptr: i32, len: i32);
+    pub fn console_log_utf16(text_ptr: i32, len: i32);
 }
 
 // Random
