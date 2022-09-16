@@ -8,13 +8,13 @@ sidebar_position: 2
 
 The FM Synth is a 4-operator [FM synthesizer](https://en.wikipedia.org/wiki/Frequency_modulation_synthesis). It produces a sound similar to some classic hardware like the Sega MegaDrive/Genesis, Soundblaster sound cards, or even synthesizer keyboards from the 80s. It uses a combination of different waves, often sine waves or sine wave variations, to modulate the signal (modulator) of the wave that we hear (carrier). It sounds complex, and it often can be. FM synthesis is very mathematical and difficult to use, but can produce an immense number of unique and interesting sounds.
 
-Each of the four operators has its own waveform and [envelope](). When the instrument is played, all four operators will also play at the same time. So it is up to the envelope to control and shape each operator individually, 
+Each of the four operators has its own waveform and [envelope](/docs/instrument#envelope). When the instrument is played, all four operators will also play at the same time. So it is up to the envelope to control and shape each operator individually, 
 
 ## Algorithm
 
 Algorithms represent the method in which the different operators are combined to produce the final sound output. The algorithm can be adjusted by adjusting the value in the slider. The algorithm chart can be seen by clicking the "FM Synth Help" button.
 
-![FM Algorithm Diagram](/img/editor/fm%20algorithm%20diagram.png)
+![FM Algorithm Diagram](/img/editor/fm-algorithm-diagram.png)
 
 Each of the numbered squares represents one of the four operators of the instrument. The charts are read from top to bottom. Any line which feeds from one operator another, is a **modulator**, meaning that the output of that wave *modulates* the shape of the target wave. Any operator which feeds down off the chart, is a **carrier**. Carriers *carry* the signal - the actual signal that we percieve as sound.
 
