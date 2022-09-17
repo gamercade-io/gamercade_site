@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Graphics Parameters
 
-Many functions from the [Draw Api](draw.md) require one parameter labeled graphics_parameter, which is actually passed in as an i32. While the value may just be a simple i32, the Gamercade Api uses the each of the 32 bits in this parameter to produce the final result.
+Many functions from the [Draw Api](draw.md) require one parameter labeled `graphics_parameters`, which is actually passed in as an i32. While the value may just be a simple i32, the Gamercade Api uses the each of the 32 bits in this parameter to produce the final result.
 
 ```rust title="Graphics Parameter Api Function List"
 // Generates a palette index parameter.
@@ -131,7 +131,7 @@ Val: T F 0      4        9        2
 Result: Flip Y, draw Sprite Index 4, from Sprite Sheet 9, using palette 2.
 ```
 
-The simplest way to do this is through [`bit shifting`](https://en.wikipedia.org/wiki/Bitwise_operation#Bit_shifts), often done through the `<<` or `>>` operators.
+The simplest way to do this is through [`bit shifting`](https://en.wikipedia.org/wiki/Bitwise_operation#Bit_shifts), often done through the `<<` operator for a left shift.
 
 This means that each of the parameters can be done by shifting the target value by these amounts:
 
