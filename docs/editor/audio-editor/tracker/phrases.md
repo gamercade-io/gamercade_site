@@ -10,7 +10,7 @@ Phrases represent the most smallest unit of sequences. They are a composed of a 
 
 Each row represents a single entry. All values are in hexadecimal The columns of the phrase editor are:
 
-- **`#`** - The row number.
+- **`#`** - The row number, in hexadecimal.
 - **`N`** - The note. Notes are named musical notes A through G#, with octaves.
 - **`V`** - The volume of the note.
 - **`I`** - The instrument index. This corresponds to the instrument list on the instrument editor.
