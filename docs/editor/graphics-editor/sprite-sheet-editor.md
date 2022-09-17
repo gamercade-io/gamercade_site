@@ -17,7 +17,21 @@ A sprite sheet can be selected by clicking its name on the list.
 The Sprite Sheet List also features two buttons:
 
 - **New** - Inserts a new default sprite sheet, with a single default sprite.
+- **Import Sprite Sheet** - After selecting a valid file type, opens the Import Sprite Sheet dialog box.
 - **Delete** - Deletes the selected sprite sheet.
+
+### Importing Sprite Sheets
+
+When clicking the Import Sprite Sheet button, you will be prompted to select an image. Once the image is selected, another window will appear. This window will allow you to import entire sprite sheets quickly and efficiently (sometimes called an atlas).
+
+To do this, select how you wish to define your sprite sheet:
+
+- **Row & Column Count** - Enter the number of rows and columns inside the atlas.
+- **Frame Size In Pixels** - Enter pixel dimensions (width and height) for the frames.
+
+Then, click the Import Sprite Sheet button. If successful, your new sprite sheet will be appended to the list of sprite sheets. **You must ensure that the correct palette is selected when importing the sheet**, otherwise it is likely to fail. If your sprite sheet fails to import, check the console for any error output messages.
+
+You may click the cancel button to un-load the image and cancel the sprite sheet import process.
 
 ## Sprite Sheet Settings
 
@@ -40,7 +54,7 @@ Interacting with the Sprite Sheet Editor is done through the following buttons:
 - **Move Left** - Move the selected sprite one spot left in the sheet.
 - **Move Right** - Move the selected sprite one spot right in the sheet.
 - **Delete** - Delete the selected sprite.
-- **Import** - Import a sprite(s) into sprite sheet.
+- **Import Frame(s)** - Import a sprite(s) into sprite sheet.
 
 ### Importing Sprites
 
