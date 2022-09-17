@@ -17,6 +17,8 @@ Each row represents a single entry. All values are in hexadecimal The columns of
 
 Phrases can be previewd by clicking the Play button, or pressing the space bar. This preview will use the bpm listed on the Phrase Editor.
 
+Many phrases played in succession will create a [chain](chains).
+
 ## Navigation and Usage
 
 Please see the [tracker usage](/docs/tracker#navigating-and-using-the-tracker) section for more information.
