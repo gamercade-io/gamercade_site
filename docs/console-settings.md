@@ -4,6 +4,15 @@ sidebar_position: 5
 
 # Console Settings
 
+Gamercade's controller is a modern game controller. It has:
+
+- 8-Way Directional Pad
+- Four Primary Face Buttons
+- Two Shoulder Buttons
+- Two Analog Sticks (with pressable buttons)
+- Two Analog Triggers
+- Start & Select Buttons
+
 ## Default Controls:
 
 The default settings for the console. Support for custom button mapping, and additional local players is coming soon. See the sections below for more details.
@@ -23,4 +32,4 @@ Emulated mode lets users' keyboard inputs mimic that of a gamepad.
 
 ### Gamepad Mode:
 
-Currently, gamepad mode is still in development.
+Gamercade supports XInput devices. You can select controllers to use via the main menu screen.
