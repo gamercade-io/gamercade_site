@@ -32,4 +32,4 @@ Emulated mode lets users' keyboard inputs mimic that of a gamepad.
 
 ### Gamepad Mode:
 
-Gamercade supports XInput devices. You can select controllers to use via the main menu screen.
+Gamercade supports XInput devices. You can select controllers to use via the main menu screen (default space bar).
