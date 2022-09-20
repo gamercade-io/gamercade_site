@@ -21,4 +21,4 @@ Check out some of these helper libraries to get you started even faster:
 | --- | --- | --- | --- |
 | [**Nelua**](https://nelua.io/) | [Andre-LA](https://codeberg.org/Andre-LA) | [neula-gamercade](https://codeberg.org/Andre-LA/nelua-gamercade) | Includes [bindings](https://codeberg.org/Andre-LA/nelua-gamercade/src/branch/main/gamercade.nelua). |
 | [**Zig**](https://ziglang.org/) | Gamercade | [zig-template](https://github.com/gamercade-io/zig-template) | Includes [bindings](https://github.com/gamercade-io/zig-template/tree/main/gamercade). |
-| [AssemblyScript](https://www.assemblyscript.org/) | [NEARworld](https://github.com/NEARworld) | [gamercade-as](https://github.com/NEARworld/gamercade-as) | Includes [bindings](https://github.com/NEARworld/gamercade-as/blob/main/gamercade/gamercade-raw.ts) |
+| [**AssemblyScript**](https://www.assemblyscript.org/) | [NEARworld](https://github.com/NEARworld) | [gamercade-as](https://github.com/NEARworld/gamercade-as) | Includes [bindings](https://github.com/NEARworld/gamercade-as/blob/main/gamercade/gamercade-raw.ts) |
