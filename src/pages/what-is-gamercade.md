@@ -6,7 +6,7 @@ Gamercade is a series of software built around the idea of building, sharing, an
 
 The Gamercade Console is a [fantasy console](https://en.wikipedia.org/wiki/Fantasy_video_game_console) for playing games written in [WebAssembly](https://en.wikipedia.org/wiki/WebAssembly). Imagine an old retro games console from the 90s, but supercharged with modern technology - that's what the Gamercade Console is. The console supports new features like a modern controller layout (including analog sticks and triggers), local and online multiplayer, and is fully cross platform.
 
-Learn more about the [console specs](/docs/console-specs), or start diving into developing [your first game](/docs/your-first-game).
+Learn more about the [console specs](/docs/console-specs), or start diving into developing with [examples](docs/examples) or [documentation](/docs/api-reference).
 
 ## Editor
 
