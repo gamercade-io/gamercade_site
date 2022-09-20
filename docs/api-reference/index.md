@@ -1,6 +1,6 @@
 ---
 slug: /api-reference
-sidebar_position: 9
+sidebar_position: 8
 ---
 
 # Api Reference
