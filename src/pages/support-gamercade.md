@@ -2,8 +2,8 @@
 
 If you like what you see, consider supporting the project!
 
-We accept donations via [ko-fi](https://ko-fi.com/gamercade).
+The best way to support the project is via [GitHub Sponsors](https://github.com/sponsors/gamercade-io).
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U7DYC1P)
+<iframe src="https://github.com/sponsors/gamercade-io/button" title="Sponsor gamercade-io" height="35" width="116" style={{border: 0}}></iframe>
 
 Also consider supporting us by joining our awesome [community](/community).

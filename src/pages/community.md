@@ -1,8 +1,10 @@
 # Community
 
-This is still a work in progress.
+Here you can find various links to our growing community.
 
-## Community Links
+### GitHub
+
+Most of the work and discussion of the project happens on [GitHub](https://github.com/gamercade-io/gamercade_console).
 
 ### Discord
 
@@ -27,6 +29,3 @@ Join the official community [discord](https://discord.gg/Qafv2Fpt5j)!
 </a>
 
 Official gamercade subreddit [/r/gamercade](https://reddit.com/r/gamercade/)
-
-TODO: Continue writing community page
-

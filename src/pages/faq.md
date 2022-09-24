@@ -34,7 +34,9 @@ See the [Console Specs](/docs/console-specs) page.
 
 ## How can I support the project?
 
-You can learn how to support the project at our [Support Gamercade](/support-gamercade) page.
+<iframe src="https://github.com/sponsors/gamercade-io/button" title="Sponsor gamercade-io" height="35" width="116" style={{border: 0}}></iframe>
+
+You can learn additional ways on how to support the project at our [Support Gamercade](/support-gamercade) page.
 
 ## How does the networking work?
 
