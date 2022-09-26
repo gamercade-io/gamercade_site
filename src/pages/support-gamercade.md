@@ -12,9 +12,9 @@ Of course, documentation, grammar, assets, etc, are always welcome as well!
 
 ## Sponsorship & Services
 
-Gamercade is a community run project. A way to support the project is via [GitHub Sponsors](https://github.com/sponsors/gamercade-io). Any donations made towards the project will be put towards improving it or its ecosystem, such as hosting costs, bug bounties, or hiring expert outside help.
+Gamercade is a community run project. A way to support the project is via [GitHub Sponsors](https://github.com/sponsors/RobDavenport). Any donations made towards the project will be put towards improving it or its ecosystem, such as hosting costs, bug bounties, or hiring expert outside help.
 
-<iframe src="https://github.com/sponsors/gamercade-io/button" title="Sponsor gamercade-io" height="35" width="116" style={{border: 0}}></iframe>
+<iframe src="https://github.com/sponsors/RobDavenport/card" title="Sponsor RobDavenport" height="225" width="600" style={{border: 0}}></iframe>
 
 We also offer specialized services based around Gamercade and related tools.
 

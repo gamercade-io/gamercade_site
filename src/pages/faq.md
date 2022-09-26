@@ -38,7 +38,7 @@ See the [Console Specs](/docs/console-specs) page.
 
 ## How can I support the project?
 
-<iframe src="https://github.com/sponsors/gamercade-io/button" title="Sponsor gamercade-io" height="35" width="116" style={{border: 0}}></iframe>
+<iframe src="https://github.com/sponsors/RobDavenport/button" title="Sponsor RobDavenport" height="35" width="116" style={{border: 0}}></iframe>
 
 You can learn additional ways on how to support the project at our [Support Gamercade](/support-gamercade) page.
 
@@ -56,4 +56,4 @@ If you feel this answer isn't suitable, check out the projects source code on [G
 
 ## Do you provide any services or training programs?
 
-Yes! We offer many one-time development services or training programs via our [GitHub Sponsors](https://github.com/sponsors/gamercade-io) page. We can develop anything from starter projects to fully completed games.
+Yes! We offer many one-time development services or training programs via our [GitHub Sponsors](https://github.com/sponsors/RobDavenport) page. We can develop anything from starter projects to fully completed games.
