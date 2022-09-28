@@ -97,8 +97,6 @@ fn button_right_stick_held(player_id: i32) -> i32;
 
 ### Analog Controls
 
-These are not yet implemented, but are coming soon.
-
 If passed in player id is invalid, these functions will return a NaN value.
 
 ```rust title="Analog Input Api"
@@ -115,6 +113,41 @@ fn trigger_left(player_id: i32) -> f32;
 fn trigger_right(player_id: i32) -> f32;
 ```
 
+### Mouse Controls
+
+For dealing with all mouse-related things. Note that it's possible that multiple players share the same mouse, such as in the instance where two players are playing on the same machine. For example, if player_id `1` and `2` are both on the same machine, then each of these mouse api functions will return the same value, regardless of if id `1` or `2` were passed in.
+
+```rust title="Mouse Input Api"
+// Mouse button states
+fn mouse_left_pressed(player_id: i32) -> i32;
+fn mouse_left_released(player_id: i32) -> i32;
+fn mouse_left_held(player_id: i32) -> i32;
+fn mouse_right_pressed(player_id: i32) -> i32;
+fn mouse_right_released(player_id: i32) -> i32;
+fn mouse_right_held(player_id: i32) -> i32;
+fn mouse_middle_pressed(player_id: i32) -> i32;
+fn mouse_middle_released(player_id: i32) -> i32;
+fn mouse_middle_held(player_id: i32) -> i32;
+
+// Mouse coordinates in pixels
+fn mouse_x_pos(player_id: i32) -> i32;
+fn mouse_y_pos(player_id: i32) -> i32;
+
+// Mouse deltas (movement since last frame)
+fn mouse_x_delta(player_id: i32) -> i32;
+fn mouse_y_delta(player_id: i32) -> i32;
+
+// Returns 0 or 1 if the mouse wheel moved in the direction
+fn mouse_wheel_up(player_id: i32) -> i32;
+fn mouse_wheel_down(player_id: i32) -> i32;
+fn mouse_wheel_left(player_id: i32) -> i32;
+fn mouse_wheel_right(player_id: i32) -> i32;
+
+// Takes a value of 0 (false) or 1 (true) to lock and hide the
+// mouse on the current console instance
+fn lock_mouse(locked: i32);
+```
+
 ### (Advanced) Raw Input
 
 TODO: Explain Raw Input Spec
@@ -122,4 +155,7 @@ TODO: Explain Raw Input Spec
 ```rust
 // Returns the raw input state as seen directly by the console.
 fn raw_input_state(played_id: i32) -> i64;
+
+// Returns the raw mouse state as seen directly by the console.
+fn raw_mouse_state(player_id: i32) -> i64;
 ```

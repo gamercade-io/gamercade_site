@@ -36,6 +36,10 @@ fn rect_filled(graphics_parameters: i32, x: i32, y: i32, width: i32, height: i32
 // Draws a line from (x0, y0) to (x1, y1) in the desired color.
 fn line(graphics_parameters: i32, x0: i32, y0: i32, x1: i32, y1: i32);
 
+// Writes len number of pixels pixels from starting index (pixel index) by
+// taking data from parameters_ptr, which is a pointer to a slice of GraphicsParameters
+// formatted 32-bit values.
+fn write_pixel_buffer(start_index: i32, parameters_ptr: i32, len: i32);
 ```
 
 ```rust title="Sprite Drawing"
